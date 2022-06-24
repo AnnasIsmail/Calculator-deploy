@@ -1,0 +1,158 @@
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.jarak{
+    height: 50px;
+}
+
+.ui.toggle.checkbox label{
+    font-weight: 600 !important;
+}
+
+main{
+    margin: auto;
+    display: grid;
+    max-width: 430px;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p{
+    margin: 0 !important;
+    max-width: 315px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    min-height: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px !important;
+}
+
+.input{
+    font-size: 17px !important;
+    padding: 20px 0;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    font-size: 16px !important;
+}
+
+.col3{
+    display: grid;
+    grid-template-columns: calc(50% - 2.51px)  1fr 1fr;
+    gap: 5px;
+}
+
+.col4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+/* Light Mode */
+.background-light{
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.3px);
+    -webkit-backdrop-filter: blur(11.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #303030 !important;
+}
+
+.primary-light{
+    background: rgba(97, 113, 194, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.5px) !important;
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border: 1px solid rgba(255, 255, 255, 1) !important;
+    color: #303030 !important;
+}
+
+.secondary-light{
+    background: rgba(255, 255, 255, 0.4) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.5px) !important;
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border: 1px solid rgba(255, 255, 255, 1) !important;
+    color: #303030 !important;
+}
+
+.button-anchor-light{
+    background-color: rgba(97, 113, 194, 0.9) !important;
+    border-color: white !important;
+    color: black !important;
+    border-radius: 15px !important;
+}
+
+.container-button-anchor-light{
+    border-color: white !important;
+    border-radius: 15px !important;
+}
+
+/* Dark Mode */
+.background-dark{
+    background: rgba(66, 66, 66, 0.57) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.5px) !important;
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border: 1px solid rgba(66, 66, 66, 0.58) !important;
+    color: white !important;
+}
+
+.primary-dark{
+    background-color: #303030 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.5px) !important;
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border: 1px solid rgba(66, 66, 66, 0.58) !important;
+    color: white !important;
+}
+
+.secondary-dark{
+    background-color: #424242 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.5px) !important;
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border: 1px solid rgba(66, 66, 66, 0.58) !important;
+    color: white !important;
+}
+
+.button-anchor-dark{
+    background-color: #303030 !important;
+    border-color: black !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+
+.container-button-anchor-dark{
+    border-color: black !important;
+    border-radius: 15px !important;
+}
